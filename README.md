@@ -124,7 +124,7 @@ DEPI4_Graduation_Project/
 
 > `best.pt` is hosted on Google Drive due to GitHub's 100MB file size limit.
 
-**[Download best.pt — Google Drive](YOUR_GOOGLE_DRIVE_LINK_HERE)**
+**[Download best.pt — Google Drive](https://drive.google.com/drive/folders/1GLbkpJQnmV-q6irJPIs-eF0orrqAb9qO?usp=sharing)**
 
 After downloading, place it at:
 ```
