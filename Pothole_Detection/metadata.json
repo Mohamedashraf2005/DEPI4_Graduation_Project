@@ -1,0 +1,17 @@
+{
+  "model_name": "raqib_pothole_detector_v1",
+  "architecture": "YOLOv8m",
+  "input_size": [640, 640],
+  "num_classes": 5,
+  "class_names": [
+    "longitudinal_crack",
+    "transverse_crack",
+    "alligator_crack",
+    "pothole",
+    "unknown"
+  ],
+  "confidence_threshold": 0.35,
+  "iou_threshold": 0.45,
+  "input_format": "BGR",
+  "normalization": "divide_by_255"
+}

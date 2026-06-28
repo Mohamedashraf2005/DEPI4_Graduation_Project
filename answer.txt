@@ -1,7 +1,0 @@
-Question: Which roads have dangerous potholes?
-
-Answer:
-لا وجدت أي معلومات عن سبل مُجردة في التقارير المُقدمة. لكن وجدت تقريرًا واحدًا عن حفرة كبيرة على طريق القاهرة الإسكندرية.
-
-Sources:
-  - reports\sample.txt
