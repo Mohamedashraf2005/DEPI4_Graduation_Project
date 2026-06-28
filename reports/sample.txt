@@ -1,0 +1,8 @@
+Report ID: 001
+Date: 2024-01-15
+Location: Cairo-Alexandria Desert Road, Km 25
+Damage Type: Large pothole, depth 20 cm, width 40 cm
+Severity: High
+Detected By: Fleet vehicle camera ID-7
+GPS Coordinates: 30.0444, 31.2357
+Required Action: Urgent maintenance required
