@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  accident-api:
+    build: 
+      context: ./Car_accident
+    container_name: accident_detection_container
+    ports:
+      - "8001:8001"
+    restart: unless-stopped
+
+  traffic-api:
+    build: 
+      context: ./Traffic_sign
+    container_name: traffic_sign_container
+    ports:
+      - "8002:8002"
+    restart: unless-stopped
