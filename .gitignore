@@ -1,7 +1,8 @@
 *.pt
 *.csv
-*.env
 __pycache__/
 .ipynb_checkpoints/
 *.vscode/
-outputs/
+node_modules/
+raqib-platform.zip
+zicjolRR
