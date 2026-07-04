@@ -1,0 +1,56 @@
+import { useEffect } from "react";
+import { BrowserRouter, Navigate, Route, Routes, useLocation } from "react-router-dom";
+import { I18nProvider } from "./i18n/I18nContext";
+import { GuideProvider } from "./components/Onboarding";
+import { MinistryLayout } from "./components/MinistryLayout";
+import { CitizenLayout } from "./components/CitizenLayout";
+
+import { Landing } from "./pages/Landing";
+import { Analyze } from "./pages/ministry/Analyze";
+import { Reports } from "./pages/ministry/Reports";
+import { CaseReview } from "./pages/ministry/CaseReview";
+import { Risk } from "./pages/ministry/Risk";
+
+import { CitizenHome } from "./pages/citizen/CitizenHome";
+import { CitizenReport } from "./pages/citizen/CitizenReport";
+import { CitizenTrack } from "./pages/citizen/CitizenTrack";
+import { CitizenRisk } from "./pages/citizen/CitizenRisk";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => window.scrollTo(0, 0), [pathname]);
+  return null;
+}
+
+export default function App() {
+  console.log("ENV:", import.meta.env);
+  console.log("POTHOLE:", import.meta.env.VITE_MODEL_POTHOLE_URL);
+  console.log("ACCIDENT:", import.meta.env.VITE_MODEL_ACCIDENT_URL);
+  console.log("MOCK:", import.meta.env.VITE_USE_MOCK);
+
+  return (
+    <I18nProvider>
+      <BrowserRouter>
+        <GuideProvider>
+          <ScrollToTop />
+          <Routes>
+            <Route path="/" element={<Landing />} />
+            <Route path="/app" element={<MinistryLayout />}>
+              <Route index element={<Analyze />} />
+              <Route path="reports" element={<Reports />} />
+              <Route path="reports/:ref" element={<CaseReview />} />
+              <Route path="risk" element={<Risk />} />
+            </Route>
+            <Route path="/citizen" element={<CitizenLayout />}>
+              <Route index element={<CitizenHome />} />
+              <Route path="report" element={<CitizenReport />} />
+              <Route path="track" element={<CitizenTrack />} />
+              <Route path="risk" element={<CitizenRisk />} />
+            </Route>
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </GuideProvider>
+      </BrowserRouter>
+    </I18nProvider>
+  );
+}
