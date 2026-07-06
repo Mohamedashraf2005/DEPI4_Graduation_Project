@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─────────────────────────────────────────────────────────────
+   Raqib design system — light / governmental / emerald-teal
+   ───────────────────────────────────────────────────────────── */
+
+:root {
+  --p: #0e9f8e;
+  --p-700: #0b6458;
+  --accent: #12b5c4;
+  --ink: #0d1b20;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans Arabic", "IBM Plex Sans", system-ui, sans-serif;
+  color: var(--ink);
+  background-color: #eef3f1;
+  background-image:
+    radial-gradient(1200px 520px at 88% -8%, rgba(18, 181, 196, 0.16), transparent 60%),
+    radial-gradient(900px 480px at 6% 0%, rgba(14, 159, 142, 0.14), transparent 55%),
+    linear-gradient(180deg, #f1f6f4 0%, #eaf1ee 100%);
+  background-attachment: fixed;
+}
+
+::selection {
+  background: rgba(14, 159, 142, 0.22);
+}
+
+/* Numerals + IDs feel like instrument readouts */
+.mono {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-feature-settings: "tnum" 1;
+  letter-spacing: -0.01em;
+}
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+@layer components {
+  .card {
+    @apply rounded-2xl border border-line bg-surface shadow-card;
+  }
+
+  .panel {
+    @apply rounded-xl border border-line bg-panel;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium;
+  }
+
+  .input {
+    @apply w-full rounded-xl border border-line bg-white px-3.5 py-2.5 text-sm text-ink
+      outline-none transition placeholder:text-ink-faint
+      focus:border-primary/60 focus:ring-4 focus:ring-primary/10;
+  }
+
+  .label {
+    @apply mb-1.5 block text-xs font-semibold text-ink-soft;
+  }
+
+  .btn {
+    @apply inline-flex select-none items-center justify-center gap-2 rounded-xl px-4 py-2.5
+      text-sm font-semibold transition-all duration-200 active:scale-[.98]
+      disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply btn text-white shadow-lift;
+    background-image: linear-gradient(135deg, #11ab98 0%, #0b6458 100%);
+  }
+  .btn-primary:hover {
+    filter: brightness(1.06);
+  }
+  .btn-ghost {
+    @apply btn border border-line bg-white text-ink hover:bg-panel;
+  }
+  .btn-soft {
+    @apply btn bg-primary/10 text-primary-700 hover:bg-primary/15;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(120deg, #0b6458 0%, #0e9f8e 45%, #12b5c4 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .gradient-primary {
+    background-image: linear-gradient(135deg, #11ab98 0%, #0b6458 100%);
+  }
+
+  .glass {
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: saturate(140%) blur(12px);
+    -webkit-backdrop-filter: saturate(140%) blur(12px);
+  }
+
+  /* fine dotted grid */
+  .bg-grid {
+    background-image: radial-gradient(rgba(13, 27, 32, 0.06) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+
+  /* topographic / road contour lines for hero panels */
+  .bg-topo {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220' viewBox='0 0 220 220'%3E%3Cg fill='none' stroke='%230E9F8E' stroke-opacity='0.10' stroke-width='1.2'%3E%3Cpath d='M-20 60 C40 20 120 120 240 60'/%3E%3Cpath d='M-20 100 C40 60 120 160 240 100'/%3E%3Cpath d='M-20 140 C40 100 120 200 240 140'/%3E%3Cpath d='M-20 180 C40 140 120 240 240 180'/%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  .scanline {
+    background: linear-gradient(
+      180deg,
+      transparent,
+      rgba(18, 181, 196, 0.65),
+      transparent
+    );
+  }
+
+  .scrollbar-slim::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  .scrollbar-slim::-webkit-scrollbar-thumb {
+    background: rgba(13, 27, 32, 0.16);
+    border-radius: 999px;
+  }
+  .scrollbar-slim::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
+
+/* Recharts polish */
+.recharts-cartesian-axis-tick text {
+  fill: #8ca0a5;
+  font-size: 11px;
+}
+.recharts-default-tooltip {
+  border-radius: 12px !important;
+  border: 1px solid #e2eae7 !important;
+  box-shadow: 0 12px 30px -12px rgba(13, 27, 32, 0.25) !important;
+  font-family: "IBM Plex Sans Arabic", sans-serif !important;
+}
+
+/* keep focus rings tidy */
+:focus-visible {
+  outline: none;
+}

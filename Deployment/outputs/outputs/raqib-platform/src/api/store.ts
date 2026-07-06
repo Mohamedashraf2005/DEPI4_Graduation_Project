@@ -1,8 +1,10 @@
 import { useSyncExternalStore } from "react";
 
 // ─────────────────────────────────────────────────────────────
-//  Persistent local store for the citizen report → review → reply loop.
-//  It reads and writes to local JSON storage, requiring no internet connection.
+//  In-session store for the citizen report → review → reply loop.
+//  It holds ONLY what the user submits in this session (no seeded
+//  data). Swap these functions for real API calls to make reports
+//  persistent and shared across users once the backend is live.
 // ─────────────────────────────────────────────────────────────
 
 export type CaseStatus = "new" | "under_review" | "resolved" | "rejected";
@@ -25,34 +27,11 @@ export const CASE_STATUS: Record<CaseStatus, { key: string; color: string }> = {
   rejected: { key: "status.rejected", color: "#54666D" },
 };
 
-const DB_KEY = "raqib_citizen_reports";
-
-// Initialize directly from local device storage
-function loadLocalCases(): CitizenCase[] {
-  try {
-    const stored = localStorage.getItem(DB_KEY);
-    return stored ? JSON.parse(stored) : [];
-  } catch (e) {
-    console.warn("Failed to load local reports", e);
-    return [];
-  }
-}
-
-let cases: CitizenCase[] = loadLocalCases();
+let cases: CitizenCase[] = [];
 const listeners = new Set<() => void>();
-
-// Helper to push the current state to the local database
-function saveLocal() {
-  try {
-    localStorage.setItem(DB_KEY, JSON.stringify(cases));
-  } catch (e) {
-    console.warn("Failed to save reports locally", e);
-  }
-}
 
 function emit() {
   cases = cases.slice();
-  saveLocal();
   listeners.forEach((l) => l());
 }
 
@@ -69,7 +48,6 @@ function snapshot() {
 
 export function addCase(c: CitizenCase) {
   cases = [c, ...cases];
-  saveLocal();
   listeners.forEach((l) => l());
 }
 
@@ -81,11 +59,10 @@ export function replyCase(ref: string, status: CaseStatus, reply: string) {
   cases = cases.map((c) =>
     c.ref === ref ? { ...c, status, reply, repliedAt: new Date().toISOString() } : c
   );
-  saveLocal();
   listeners.forEach((l) => l());
 }
 
-/** Reactive list of persistent cases. */
+/** Reactive list of this session's cases. */
 export function useCases(): CitizenCase[] {
   return useSyncExternalStore(subscribe, snapshot, snapshot);
 }

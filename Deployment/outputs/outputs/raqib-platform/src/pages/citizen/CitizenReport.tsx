@@ -2,8 +2,7 @@ import { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { CheckCircle2, Loader2, MapPin, Search, UploadCloud, X } from "lucide-react";
-// Remove submitCitizen, import addCase instead
-import { addCase } from "@/api/store"; 
+import { submitCitizen } from "@/api/citizen";
 import { useI18n } from "@/i18n/I18nContext";
 
 type Stage = "form" | "submitting" | "success";
@@ -26,27 +25,8 @@ export function CitizenReport() {
 
   async function submit() {
     setStage("submitting");
-    
-    // Simulate a brief loading delay so the UI feels natural
-    await new Promise((resolve) => setTimeout(resolve, 800));
-    
-    // Generate a random 8-character reference ID (e.g., "A7F9K2M1")
-    const generatedRef = Math.random().toString(36).substring(2, 10).toUpperCase();
-
-    // Create the case object expected by store.ts
-    const newLocalReport = {
-      ref: generatedRef,
-      description: desc,
-      location: location,
-      mediaName: file?.name,
-      status: "new" as const,
-      createdAt: new Date().toISOString(),
-    };
-
-    // Use store.ts to automatically update state AND save to localStorage
-    addCase(newLocalReport);
-
-    setReference(generatedRef);
+    const res = await submitCitizen({ description: desc, location, file: file ?? undefined });
+    setReference(res.ref);
     setStage("success");
   }
 

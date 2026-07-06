@@ -6,13 +6,7 @@ export function Risk() {
   const { t } = useI18n();
   return (
     <div>
-      {/* <PageHeader icon={<TrendingUp className="h-5 w-5" />} title={t("risk.title")} subtitle={t("risk.subtitle")} /> */}
-
-<PageHeader 
-  icon={TrendingUp} 
-  title={t("risk.title")} 
-  subtitle={t("risk.subtitle")} 
-/>
+      <PageHeader icon={<TrendingUp className="h-5 w-5" />} title={t("risk.title")} subtitle={t("risk.subtitle")} />
 
       <div className="grid gap-5 lg:grid-cols-2">
         <div className="card p-5">

@@ -8,7 +8,6 @@ const items: { to: string; icon: LucideIcon; key: string; end?: boolean }[] = [
   { to: "/app", icon: ScanLine, key: "nav.analyze", end: true },
   { to: "/app/reports", icon: ClipboardList, key: "nav.reports" },
   { to: "/app/risk", icon: TrendingUp, key: "nav.risk" },
-  { to: "/app/heatmap", icon: TrendingUp, key: "nav.heatmap" },
 ];
 
 export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {

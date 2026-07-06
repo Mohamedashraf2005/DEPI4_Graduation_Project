@@ -20,11 +20,8 @@ export function Reports() {
 
   return (
     <div>
-<PageHeader 
-  icon={ClipboardList} 
-  title={t("reports.title")} 
-  subtitle={t("reports.subtitle")} 
-/>
+      <PageHeader icon={<ClipboardList className="h-5 w-5" />} title={t("reports.title")} subtitle={t("reports.subtitle")} />
+
       <div className="mb-5 grid grid-cols-3 gap-3">
         {[
           { k: "reports.count.total", v: counts.total, c: "#0E9F8E" },
