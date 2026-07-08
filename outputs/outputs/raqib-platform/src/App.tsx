@@ -10,6 +10,9 @@ import { Reports } from "./pages/ministry/Reports";
 import { CaseReview } from "./pages/ministry/CaseReview";
 import { Risk } from "./pages/ministry/Risk";
 import { Heatmap } from "./pages/ministry/Heatmap";
+import { Chatbot } from "./pages/ministry/chatbot";
+
+//outputs\outputs\raqib-platform\src\pages\ministry\chatbot.ts
 import { CitizenHome } from "./pages/citizen/CitizenHome";
 import { CitizenReport } from "./pages/citizen/CitizenReport";
 import { CitizenTrack } from "./pages/citizen/CitizenTrack";
@@ -47,6 +50,7 @@ export default function App() {
               <Route path="reports/:ref" element={<CaseReview />} />
               <Route path="risk" element={<Risk />} />
               <Route path="heatmap" element={<Heatmap />} />
+              <Route path="chatbot" element={<Chatbot />} />
             </Route>
             
             {/* Citizen Routes under Layout */}

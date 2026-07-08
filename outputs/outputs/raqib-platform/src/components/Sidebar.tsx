@@ -9,8 +9,9 @@ const items: { to: string; icon: LucideIcon; key: string; end?: boolean }[] = [
   { to: "/app/reports", icon: ClipboardList, key: "nav.reports" },
   { to: "/app/risk", icon: TrendingUp, key: "nav.risk" },
   { to: "/app/heatmap", icon: TrendingUp, key: "nav.heatmap" },
+  { to: "/app/chatbot", icon: TrendingUp, key: "nav.chatbot" },
 ];
-
+//raqib-platform\src\pages\ministry\chatbot.ts
 export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
   const { t } = useI18n();
   return (
