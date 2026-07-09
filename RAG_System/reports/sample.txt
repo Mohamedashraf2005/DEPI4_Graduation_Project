@@ -1,3 +1,4 @@
+Section 1: Pothole & Road Surface Damage Reports
 Report ID: 001
 Date: 2024-01-15
 Location: Cairo-Alexandria Desert Road, Km 25
@@ -6,3 +7,227 @@ Severity: High
 Detected By: Fleet vehicle camera ID-7
 GPS Coordinates: 30.0444, 31.2357
 Required Action: Urgent maintenance required
+
+
+Report ID: RD-2026-041
+
+Date: March 12, 2026
+
+Location: Ring Road (Giza section), near the Marioutiya exit.
+
+Description: Group of deep consecutive potholes forming a critical cluster across the right lane.
+
+Physical Specifications: Average depth spans 15–20 cm. This is severely disrupting traffic flow heading toward the El Mounib axis.
+
+Urgency: High Severity. Continuous heavy container truck traffic is rapidly expanding the pavement disintegration. Immediate asphalt patching is advised.
+
+Report ID: RD-2026-042
+
+Date: March 22, 2026
+
+Location: Suez Desert Road, Km 45 northbound (near Madinaty entrance).
+
+Incident Data: Automated vehicle inspection detected a sharp, jagged road cutout left behind by incomplete utility trenching. Depth is roughly 12 cm, width extends 60 cm across.
+
+Risk Level: Moderate. High-speed vehicle tracking shows cars swerving sharply into the middle lane to dodge the hazard.
+
+Status: Assigned to East Cairo maintenance sector for leveling.
+
+Report ID: RD-2026-043
+
+Date: April 05, 2026
+
+Location: Mansoura-Damietta Agricultural Highway, near Sherbin.
+
+Damage Profile: Extreme asphalt rutting alongside structural alligator cracking, culminating in a wide pothole basin (length 1.2 meters, depth 18 cm).
+
+Context: Heavily waterlogged sub-base from seasonal agricultural run-off has weakened the local foundation.
+
+Action Plan: Deep milling and total resurfacing required for safety compliance.
+
+Report ID: RD-2026-044
+
+Date: April 19, 2026
+
+Location: Alexandria Corniche Road, near Stanley Bridge (Eastbound).
+
+Summary: Coastal humidity and salt exposure have triggered rapid structural delamination of the asphalt surface. A sharp-edged pothole has formed directly over a expansion joint gap. Depth: 10 cm.
+
+Classification: Medium Priority. Causing localized axle impact shock waves for passenger vehicles.
+
+Report ID: RD-2026-045
+
+Date: May 02, 2026
+
+Location: Hurghada-Safaga Coastal Road, Km 12 south.
+
+Observations: Sudden structural collapse of pavement shoulder creating a steep drop-off pothole, depth 25 cm, right on the boundary line of the coastal asphalt track.
+
+Coordinates: 27.2578, 33.8124
+
+Mitigation: Temporary safety cones deployed. Requires structural sub-grade stabilization.
+
+Report ID: RD-2026-046
+
+Date: May 14, 2026
+
+Location: Tanta-Mahalla Highway, near the entrance of Gharbia industrial sector.
+
+Log: Severe surface depression and core pothole development (depth 15 cm) caused by concentrated loading from heavy textile transport trucks.
+
+Condition: Base layer failure. Asphalt is pushed upward into waves surrounding the hole.
+
+Status: Critical maintenance needed.
+
+Report ID: RD-2026-047
+
+Date: June 01, 2026
+
+Location: Asyut Western Desert Road, Km 80.
+
+Data: Extreme desert heat cycling has caused thermal pavement buckling, leading to a deep, jagged blowout cavity resembling a structural pothole. Depth is over 22 cm.
+
+Hazard Rating: High. Highly dangerous for long-distance transport fleets moving at highway speeds.
+
+Report ID: RD-2026-048
+
+Date: June 18, 2026
+
+Location: Zagazig-Belbeis Road, Sharqia Governorate.
+
+Details: Minor micro-potholes have merged into a broad surface crater across the regional lane, measuring 80 cm wide and 14 cm deep.
+
+Impact: Severe vehicle lane deviation observed via traffic vision systems.
+
+Report ID: RD-2026-049
+
+Date: July 02, 2026
+
+Location: Ismailia Desert Road, near El Shorouk City bridge sector.
+
+Incident: Sharp asphalt puncture hole, width 30 cm, depth 17 cm, exposing the core rocky aggregate underneath. Likely accelerated by localized heavy braking zones near the bridge deceleration ramp.
+
+Priority: High.
+
+Report ID: RD-2026-050
+
+Date: July 08, 2026
+
+Location: Faiyum Road, near the Dahshur intersection area.
+
+Type: Subsurface water leak from old piping network has caused localized soil erosion under the road surface, resulting in a sudden 30 cm deep sink-hole style pothole cavity.
+
+Urgency: Critical. Lane closed pending total soil remediation.
+
+Section 2: Traffic Road Guard & Infrastructure Accident Reports
+Report ID: AC-2026-101
+
+Date: February 28, 2026
+
+Location: Cairo-Alexandria Desert Road, Km 62.
+
+Accident Type: A multi-axle freight carrier lost traction during braking, jackknifed, and directly impacted the physical roadside infrastructure.
+
+Damage Assessment: 15 meters of heavy steel W-beam traffic road guards completely warped and unanchored from their support pillars. The physical barrier is now leaning dangerously onto the active roadway.
+
+Status: Guardrail replacement needed immediately.
+
+Report ID: AC-2026-102
+
+Date: March 15, 2026
+
+Location: Regional Ring Road, Banha Bypass sector.
+
+Incident Summary: Micro-sleep event led a private sedan to collide with the structural central median.
+
+Infrastructure Impact: Three structural concrete New Jersey barriers have been dislodged out of alignment, shifting almost 40 cm into the oncoming fast lane. No personnel casualties, but the shifted barrier poses an immediate collision risk.
+
+Action: Heavy crane unit requested to realign the concrete road guards.
+
+Report ID: AC-2026-103
+
+Date: April 01, 2026
+
+Location: Port Said Coastal Highway, West Sector.
+
+Details: Heavy fog led a commercial delivery van to strike the safety infrastructure at a high-speed exit ramp.
+
+Infrastructure Affected: The terminal impact attenuator (crash cushion) and two consecutive panels of the physical galvanized road guard barrier are completely crushed.
+
+Severity: Critical infrastructure failure.
+
+Report ID: AC-2026-104
+
+Date: April 27, 2026
+
+Location: Upper Egypt El-Jaish Eastern Desert Road, Minya Segment.
+
+Summary: A pickup truck lost control following a rear tire blowout, scraping violently against the physical roadside corridor barriers.
+
+Damages: 25 meters of steel wire rope safety fences are snapped and tension lines are destroyed. These traffic road guards are no longer capable of arresting vehicle impacts.
+
+Report ID: AC-2026-105
+
+Date: May 11, 2026
+
+Location: Luxors - Qena Agricultural Road.
+
+Collision Profile: An agricultural tractor collided with the steel bridge parapet and approaching road guard structures.
+
+Damage Matrix: The safety transition guardrail is completely snapped off its base bolts. Structural anchor point fractured.
+
+Priority Level: Immediate repair required to prevent vehicles from plummeting into adjacent canal irrigation paths.
+
+Report ID: AC-2026-106
+
+Date: May 29, 2026
+
+Location: Ismailia-Port Said Highway.
+
+Log: A passenger vehicle swerved to avoid debris, impacting the pedestrian safety fences and steel road guards flanking the urban zone boundary.
+
+Physical Destruction: 4 structural steel fence panels sheared from their ground foundations.
+
+Report ID: AC-2026-107
+
+Date: June 10, 2026
+
+Location: Suez Canal Axis Road, Ismailia Sector.
+
+Incident: A speeding vehicle struck the split-gore area safety buffer.
+
+Infrastructure Damage: The array of yellow plastic sand-filled barrels (impact road guards) are obliterated, spilling contents across two active lanes. The structural backing plate is twisted.
+
+Cleanup: Urgent sweeping and replacement of energy-absorbing barriers needed.
+
+Report ID: AC-2026-108
+
+Date: June 24, 2026
+
+Location: Kafr El-Sheikh Circular Road.
+
+Context: Unregulated U-turn maneuver forced a medium transport vehicle to slam into the central median road guard barriers.
+
+Damage: The modular steel barrier system is bent in a V-shape protruding out into the left passing lane.
+
+Danger Rating: Severe obstruction.
+
+Report ID: AC-2026-109
+
+Date: July 04, 2026
+
+Location: Sohag Highway Link, near Axis Bridge.
+
+Summary: Single-vehicle crash resulted in severe damage to high-tension containment cable road guards designed to prevent vehicle crossovers into oncoming traffic lines.
+
+Infrastructure Status: Cable tension entirely compromised across a 40-meter zone.
+
+Report ID: AC-2026-110
+
+Date: July 09, 2026
+
+Location: El Alamein International Highway, Matrouh Road segment.
+
+Log: A high-speed luxury SUV skidded due to hydroplaning from a local water tanker leak, striking the roadside protective steel barrier array.
+
+Damage: Multiple structural steel beam posts snapped at ground level; the protective road guard sheet has completely detached. High urgency for replacement due to heavy summer coastal traffic.
