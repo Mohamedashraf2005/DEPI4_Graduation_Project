@@ -9,7 +9,16 @@ from langchain_core.runnables import RunnablePassthrough
 
 load_dotenv()
 
+# Global cache to avoid reloading RAG on every request
+_rag_cache = {"chain": None, "retriever": None}
+
 def load_rag():
+    """Load RAG chain and retriever. Uses cache to avoid reloading."""
+    # Return cached version if available
+    if _rag_cache["chain"] is not None and _rag_cache["retriever"] is not None:
+        return _rag_cache["chain"], _rag_cache["retriever"]
+    
+    print("[INFO] Loading embeddings and vector store...")
     embedding_model = SentenceTransformerEmbeddings(
         model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
     )
@@ -21,6 +30,7 @@ def load_rag():
     
     retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
     
+    print("[INFO] Loading LLM...")
     llm = ChatGroq(
             model="llama-3.1-8b-instant", # الموديل الأكبر والأقوى في اللغة العربية
             api_key=os.getenv("GROQ_API_KEY"),
@@ -60,6 +70,11 @@ Answer in fluent Arabic:
         | StrOutputParser()
     )
     
+    # Cache for future requests
+    _rag_cache["chain"] = chain
+    _rag_cache["retriever"] = retriever
+    
+    print("[INFO] ✓ RAG chain loaded and cached!")
     return chain, retriever
 def ask(question: str):
     chain, retriever = load_rag()

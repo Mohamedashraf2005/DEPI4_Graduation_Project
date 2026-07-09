@@ -60,7 +60,7 @@ export function Chatbot() {
   const [copiedId, setCopiedId] = useState<string | null>(null);
   
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  const inputRef = useRef<HTMLInputElement>(null);
+  const inputRef = useRef<HTMLTextAreaElement>(null);
 
   // Load messages from localStorage on mount
   useEffect(() => {
@@ -68,7 +68,6 @@ export function Chatbot() {
     if (stored) {
       try {
         const parsed = JSON.parse(stored);
-        // Convert timestamp strings back to Date objects
         const restored = parsed.map((msg: any) => ({
           ...msg,
           timestamp: new Date(msg.timestamp),
@@ -94,6 +93,14 @@ export function Chatbot() {
   useEffect(() => {
     scrollToBottom();
   }, [messages, isLoading]);
+
+  // Dynamically adjust textarea height based on typing content
+  useEffect(() => {
+    if (inputRef.current) {
+      inputRef.current.style.height = "auto";
+      inputRef.current.style.height = `${Math.min(inputRef.current.scrollHeight, 96)}px`; // maximum 96px (equivalent to max-h-24)
+    }
+  }, [inputValue]);
 
   const handleSendMessage = async (e?: React.FormEvent, retryText?: string) => {
     e?.preventDefault();
@@ -145,7 +152,6 @@ export function Chatbot() {
         ? "عذراً، حدث خطأ. انقر على 'إعادة محاولة' لإرسال الرسالة مرة أخرى."
         : "Sorry, an error occurred. Click 'Retry' to send again.";
       setError(errorMsg);
-      // Mark the last bot message as error
       setMessages((prev) => {
         const lastMsg = prev[prev.length - 1];
         if (lastMsg?.role === "bot") {
@@ -174,17 +180,13 @@ export function Chatbot() {
     setTimeout(() => setCopiedId(null), 2000);
   };
 
-  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    // Shift+Enter for new line, Enter to send
-    if (e.key === "Enter") {
-      if (e.shiftKey) {
-        // Allow new line
-        e.currentTarget.value += "\n";
-      } else {
-        e.preventDefault();
-        handleSendMessage();
-      }
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
+    // If Enter is pressed without holding Shift, trigger form submission
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      handleSendMessage();
     }
+    // Shift+Enter natively performs a newline carriage return inside textareas, no manual additions required
   };
 
   const handleClearChat = () => {
@@ -412,7 +414,7 @@ export function Chatbot() {
         {/* Input Area */}
         <div className="border-t border-line bg-panel p-4">
           <form onSubmit={handleSendMessage} className="space-y-2 max-w-4xl mx-auto">
-            <div className="relative flex items-end gap-2">
+            <div className="relative flex items-center gap-2">
               <textarea
                 ref={inputRef}
                 value={inputValue}
@@ -420,7 +422,7 @@ export function Chatbot() {
                 onKeyDown={handleKeyDown}
                 disabled={isLoading}
                 placeholder={isArabic ? "اكتب سؤالك هنا... (Shift+Enter للسطر الجديد)" : "Type your question here... (Shift+Enter for new line)"}
-                className={`flex-1 rounded-2xl border border-line bg-background py-3 ${isArabic ? 'pr-4 pl-4' : 'pl-4 pr-4'} text-sm text-ink outline-none transition focus:border-primary disabled:opacity-50 resize-none max-h-24`}
+                className={`flex-1 rounded-2xl border border-line bg-background py-3 ${isArabic ? 'pr-4 pl-4' : 'pl-4 pr-4'} text-sm text-ink outline-none transition focus:border-primary disabled:opacity-50 resize-none overflow-y-auto max-h-24`}
                 rows={1}
                 style={{ minHeight: "44px" }}
               />
