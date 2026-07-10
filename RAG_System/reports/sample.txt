@@ -1,233 +1,167 @@
-Section 1: Pothole & Road Surface Damage Reports
-Report ID: 001
-Date: 2024-01-15
-Location: Cairo-Alexandria Desert Road, Km 25
-Damage Type: Large pothole, depth 20 cm, width 40 cm
-Severity: High
-Detected By: Fleet vehicle camera ID-7
-GPS Coordinates: 30.0444, 31.2357
-Required Action: Urgent maintenance required
-
-
-Report ID: RD-2026-041
-
-Date: March 12, 2026
-
-Location: Ring Road (Giza section), near the Marioutiya exit.
-
-Description: Group of deep consecutive potholes forming a critical cluster across the right lane.
-
-Physical Specifications: Average depth spans 15–20 cm. This is severely disrupting traffic flow heading toward the El Mounib axis.
-
-Urgency: High Severity. Continuous heavy container truck traffic is rapidly expanding the pavement disintegration. Immediate asphalt patching is advised.
-
-Report ID: RD-2026-042
-
-Date: March 22, 2026
-
-Location: Suez Desert Road, Km 45 northbound (near Madinaty entrance).
-
-Incident Data: Automated vehicle inspection detected a sharp, jagged road cutout left behind by incomplete utility trenching. Depth is roughly 12 cm, width extends 60 cm across.
-
-Risk Level: Moderate. High-speed vehicle tracking shows cars swerving sharply into the middle lane to dodge the hazard.
-
-Status: Assigned to East Cairo maintenance sector for leveling.
-
-Report ID: RD-2026-043
-
-Date: April 05, 2026
-
-Location: Mansoura-Damietta Agricultural Highway, near Sherbin.
-
-Damage Profile: Extreme asphalt rutting alongside structural alligator cracking, culminating in a wide pothole basin (length 1.2 meters, depth 18 cm).
-
-Context: Heavily waterlogged sub-base from seasonal agricultural run-off has weakened the local foundation.
-
-Action Plan: Deep milling and total resurfacing required for safety compliance.
-
-Report ID: RD-2026-044
-
-Date: April 19, 2026
-
-Location: Alexandria Corniche Road, near Stanley Bridge (Eastbound).
-
-Summary: Coastal humidity and salt exposure have triggered rapid structural delamination of the asphalt surface. A sharp-edged pothole has formed directly over a expansion joint gap. Depth: 10 cm.
-
-Classification: Medium Priority. Causing localized axle impact shock waves for passenger vehicles.
-
-Report ID: RD-2026-045
-
-Date: May 02, 2026
-
-Location: Hurghada-Safaga Coastal Road, Km 12 south.
-
-Observations: Sudden structural collapse of pavement shoulder creating a steep drop-off pothole, depth 25 cm, right on the boundary line of the coastal asphalt track.
-
-Coordinates: 27.2578, 33.8124
-
-Mitigation: Temporary safety cones deployed. Requires structural sub-grade stabilization.
-
-Report ID: RD-2026-046
-
-Date: May 14, 2026
-
-Location: Tanta-Mahalla Highway, near the entrance of Gharbia industrial sector.
-
-Log: Severe surface depression and core pothole development (depth 15 cm) caused by concentrated loading from heavy textile transport trucks.
-
-Condition: Base layer failure. Asphalt is pushed upward into waves surrounding the hole.
-
-Status: Critical maintenance needed.
-
-Report ID: RD-2026-047
-
-Date: June 01, 2026
-
-Location: Asyut Western Desert Road, Km 80.
-
-Data: Extreme desert heat cycling has caused thermal pavement buckling, leading to a deep, jagged blowout cavity resembling a structural pothole. Depth is over 22 cm.
-
-Hazard Rating: High. Highly dangerous for long-distance transport fleets moving at highway speeds.
-
-Report ID: RD-2026-048
-
-Date: June 18, 2026
-
-Location: Zagazig-Belbeis Road, Sharqia Governorate.
-
-Details: Minor micro-potholes have merged into a broad surface crater across the regional lane, measuring 80 cm wide and 14 cm deep.
-
-Impact: Severe vehicle lane deviation observed via traffic vision systems.
-
-Report ID: RD-2026-049
-
-Date: July 02, 2026
-
-Location: Ismailia Desert Road, near El Shorouk City bridge sector.
-
-Incident: Sharp asphalt puncture hole, width 30 cm, depth 17 cm, exposing the core rocky aggregate underneath. Likely accelerated by localized heavy braking zones near the bridge deceleration ramp.
-
-Priority: High.
-
-Report ID: RD-2026-050
-
-Date: July 08, 2026
-
-Location: Faiyum Road, near the Dahshur intersection area.
-
-Type: Subsurface water leak from old piping network has caused localized soil erosion under the road surface, resulting in a sudden 30 cm deep sink-hole style pothole cavity.
-
-Urgency: Critical. Lane closed pending total soil remediation.
-
-Section 2: Traffic Road Guard & Infrastructure Accident Reports
-Report ID: AC-2026-101
-
-Date: February 28, 2026
-
-Location: Cairo-Alexandria Desert Road, Km 62.
-
-Accident Type: A multi-axle freight carrier lost traction during braking, jackknifed, and directly impacted the physical roadside infrastructure.
-
-Damage Assessment: 15 meters of heavy steel W-beam traffic road guards completely warped and unanchored from their support pillars. The physical barrier is now leaning dangerously onto the active roadway.
-
-Status: Guardrail replacement needed immediately.
-
-Report ID: AC-2026-102
-
-Date: March 15, 2026
-
-Location: Regional Ring Road, Banha Bypass sector.
-
-Incident Summary: Micro-sleep event led a private sedan to collide with the structural central median.
-
-Infrastructure Impact: Three structural concrete New Jersey barriers have been dislodged out of alignment, shifting almost 40 cm into the oncoming fast lane. No personnel casualties, but the shifted barrier poses an immediate collision risk.
-
-Action: Heavy crane unit requested to realign the concrete road guards.
-
-Report ID: AC-2026-103
-
-Date: April 01, 2026
-
-Location: Port Said Coastal Highway, West Sector.
-
-Details: Heavy fog led a commercial delivery van to strike the safety infrastructure at a high-speed exit ramp.
-
-Infrastructure Affected: The terminal impact attenuator (crash cushion) and two consecutive panels of the physical galvanized road guard barrier are completely crushed.
-
-Severity: Critical infrastructure failure.
-
-Report ID: AC-2026-104
-
-Date: April 27, 2026
-
-Location: Upper Egypt El-Jaish Eastern Desert Road, Minya Segment.
-
-Summary: A pickup truck lost control following a rear tire blowout, scraping violently against the physical roadside corridor barriers.
-
-Damages: 25 meters of steel wire rope safety fences are snapped and tension lines are destroyed. These traffic road guards are no longer capable of arresting vehicle impacts.
-
-Report ID: AC-2026-105
-
-Date: May 11, 2026
-
-Location: Luxors - Qena Agricultural Road.
-
-Collision Profile: An agricultural tractor collided with the steel bridge parapet and approaching road guard structures.
-
-Damage Matrix: The safety transition guardrail is completely snapped off its base bolts. Structural anchor point fractured.
-
-Priority Level: Immediate repair required to prevent vehicles from plummeting into adjacent canal irrigation paths.
-
-Report ID: AC-2026-106
-
-Date: May 29, 2026
-
-Location: Ismailia-Port Said Highway.
-
-Log: A passenger vehicle swerved to avoid debris, impacting the pedestrian safety fences and steel road guards flanking the urban zone boundary.
-
-Physical Destruction: 4 structural steel fence panels sheared from their ground foundations.
-
-Report ID: AC-2026-107
-
-Date: June 10, 2026
-
-Location: Suez Canal Axis Road, Ismailia Sector.
-
-Incident: A speeding vehicle struck the split-gore area safety buffer.
-
-Infrastructure Damage: The array of yellow plastic sand-filled barrels (impact road guards) are obliterated, spilling contents across two active lanes. The structural backing plate is twisted.
-
-Cleanup: Urgent sweeping and replacement of energy-absorbing barriers needed.
-
-Report ID: AC-2026-108
-
-Date: June 24, 2026
-
-Location: Kafr El-Sheikh Circular Road.
-
-Context: Unregulated U-turn maneuver forced a medium transport vehicle to slam into the central median road guard barriers.
-
-Damage: The modular steel barrier system is bent in a V-shape protruding out into the left passing lane.
-
-Danger Rating: Severe obstruction.
-
-Report ID: AC-2026-109
-
-Date: July 04, 2026
-
-Location: Sohag Highway Link, near Axis Bridge.
-
-Summary: Single-vehicle crash resulted in severe damage to high-tension containment cable road guards designed to prevent vehicle crossovers into oncoming traffic lines.
-
-Infrastructure Status: Cable tension entirely compromised across a 40-meter zone.
-
-Report ID: AC-2026-110
-
-Date: July 09, 2026
-
-Location: El Alamein International Highway, Matrouh Road segment.
-
-Log: A high-speed luxury SUV skidded due to hydroplaning from a local water tanker leak, striking the roadside protective steel barrier array.
-
-Damage: Multiple structural steel beam posts snapped at ground level; the protective road guard sheet has completely detached. High urgency for replacement due to heavy summer coastal traffic.
+رقم التقرير: 001
+التاريخ: 2024-01-15
+الموقع: طريق القاهرة-الإسكندرية الصحراوي، الكيلو 25
+نوع الحادث: حفرة كبيرة في سطح الطريق
+وصف الأضرار: حفرة عميقة بعمق 20 سم وعرض 40 سم، تم رصدها بواسطة كاميرا المركبة رقم 7 عند الإحداثيات 30.0444, 31.2357
+حالة الحاجز: لا يوجد حاجز متضرر - مطلوب صيانة عاجلة
+درجة الخطورة: مرتفعة
+
+رقم التقرير: RD-2026-041
+التاريخ: 2026-03-12
+الموقع: الطريق الدائري (قطاع الجيزة)، بالقرب من مخرج المريوطية
+نوع الحادث: تجمّع حفر عميقة متتالية
+وصف الأضرار: مجموعة من الحفر العميقة المتلاحقة تتوزع عبر المسار الأيمن، بمتوسط عمق يتراوح بين 15 و20 سم، مما يعيق حركة المرور باتجاه محور المنيب بسبب الحركة الكثيفة لشاحنات الحاويات
+حالة الحاجز: لا يوجد - مطلوب ترقيع إسفلتي فوري
+درجة الخطورة: مرتفعة
+
+رقم التقرير: RD-2026-042
+التاريخ: 2026-03-22
+الموقع: طريق السويس الصحراوي، الكيلو 45 اتجاه الشمال (قرب مدخل مدينتي)
+نوع الحادث: حفرة ناتجة عن أعمال حفر مرافق غير مكتملة
+وصف الأضرار: فجوة حادة وغير منتظمة بعمق حوالي 12 سم وعرض يمتد إلى 60 سم، رصدتها أنظمة التفتيش الآلي للمركبات، مع ملاحظة انحراف السيارات نحو المسار الأوسط لتجنبها
+حالة الحاجز: تم إسناد الملف إلى قطاع صيانة شرق القاهرة للتسوية
+درجة الخطورة: متوسطة
+
+رقم التقرير: RD-2026-043
+التاريخ: 2026-04-05
+الموقع: طريق المنصورة-دمياط الزراعي، بالقرب من الشربين
+نوع الحادث: تخدد شديد في الإسفلت مصحوب بتشققات تمساحية
+وصف الأضرار: تآكل هيكلي واسع في طبقة الإسفلت مع تشققات متشابكة، أدى إلى تكوّن حوض حفرة كبير بطول 1.2 متر وعمق 18 سم، نتيجة تشبع القاعدة الترابية بمياه الصرف الزراعي الموسمية
+حالة الحاجز: لا يوجد - يتطلب الأمر كشط عميق وإعادة رصف كاملة لضمان السلامة
+درجة الخطورة: مرتفعة
+
+رقم التقرير: RD-2026-044
+التاريخ: 2026-04-19
+الموقع: طريق كورنيش الإسكندرية، بالقرب من كوبري ستانلي (اتجاه الشرق)
+نوع الحادث: تفكك هيكلي في السطح الإسفلتي
+وصف الأضرار: أدت الرطوبة الساحلية والتعرض للأملاح إلى تسارع تفكك طبقة الإسفلت، مما نتج عنه حفرة حادة الحواف فوق فتحة مفصل التمدد بعمق 10 سم، وتسبب في صدمات محورية موضعية للمركبات الخفيفة
+حالة الحاجز: لا يوجد
+درجة الخطورة: متوسطة
+
+رقم التقرير: RD-2026-045
+التاريخ: 2026-05-02
+الموقع: طريق الغردقة-سفاجا الساحلي، الكيلو 12 جنوباً
+نوع الحادث: انهيار مفاجئ في كتف الطريق
+وصف الأضرار: انهيار هيكلي مفاجئ في كتف الرصيف أدى إلى تكوّن حفرة حادة الانحدار بعمق 25 سم على حافة المسار الإسفلتي الساحلي، عند الإحداثيات 27.2578, 33.8124
+حالة الحاجز: تم وضع مخاريط تحذيرية مؤقتة - يتطلب الأمر تدعيم القاعدة الإنشائية
+درجة الخطورة: مرتفعة
+
+رقم التقرير: RD-2026-046
+التاريخ: 2026-05-14
+الموقع: طريق طنطا-المحلة، بالقرب من مدخل المنطقة الصناعية بالغربية
+نوع الحادث: هبوط سطحي وتكوّن حفرة أساسية
+وصف الأضرار: هبوط شديد في سطح الطريق مع تكوّن حفرة مركزية بعمق 15 سم، ناتج عن الأحمال المتكررة لشاحنات نقل المنسوجات الثقيلة، مع فشل في طبقة الأساس ودفع الإسفلت للأعلى حول الحفرة
+حالة الحاجز: لا يوجد
+درجة الخطورة: حرجة
+
+رقم التقرير: RD-2026-047
+التاريخ: 2026-06-01
+الموقع: طريق أسيوط الغربي الصحراوي، الكيلو 80
+نوع الحادث: تكسّر حراري في الرصف مع تجويف انفجاري
+وصف الأضرار: أدت دورات الحرارة الصحراوية الشديدة إلى تكسّر حراري في طبقة الرصف، مما نتج عنه تجويف عميق وحاد يشبه الحفرة الهيكلية بعمق يتجاوز 22 سم
+حالة الحاجز: لا يوجد
+درجة الخطورة: مرتفعة - خطر بالغ على أساطيل النقل طويل المسافة
+
+رقم التقرير: RD-2026-048
+التاريخ: 2026-06-18
+الموقع: طريق الزقازيق-بلبيس، محافظة الشرقية
+نوع الحادث: حفرة سطحية واسعة ناتجة عن اندماج حفر دقيقة
+وصف الأضرار: اندماج عدد من الحفر الدقيقة لتكوين فوهة سطحية واسعة يبلغ عرضها 80 سم وعمقها 14 سم عبر المسار الإقليمي
+حالة الحاجز: لا يوجد
+درجة الخطورة: ملحوظة - انحراف مروري شديد رصدته أنظمة الرؤية المرورية
+
+رقم التقرير: RD-2026-049
+التاريخ: 2026-07-02
+الموقع: طريق الإسماعيلية الصحراوي، بالقرب من قطاع كوبري مدينة الشروق
+نوع الحادث: ثقب إسفلتي حاد
+وصف الأضرار: ثقب حاد في الإسفلت بعرض 30 سم وعمق 17 سم، يكشف عن الركام الصخري الأساسي، ويُرجّح أنه تسارع بفعل مناطق الكبح المتكرر قرب منحدر تباطؤ الجسر
+حالة الحاجز: لا يوجد
+درجة الخطورة: مرتفعة
+
+رقم التقرير: RD-2026-050
+التاريخ: 2026-07-08
+الموقع: طريق الفيوم، بالقرب من منطقة تقاطع دهشور
+نوع الحادث: حفرة انهيارية ناتجة عن تسرب مياه جوفي
+وصف الأضرار: تسرب مياه من شبكة أنابيب قديمة تحت الطريق أدى إلى تآكل التربة موضعياً، مما تسبب في ظهور مفاجئ لحفرة انهيارية بعمق 30 سم
+حالة الحاجز: تم غلق المسار لحين إتمام معالجة التربة بالكامل
+درجة الخطورة: حرجة
+
+رقم التقرير: AC-2026-101
+التاريخ: 2026-02-28
+الموقع: طريق القاهرة-الإسكندرية الصحراوي، الكيلو 62
+نوع الحادث: اصطدام شاحنة متعددة المحاور بحاجز الطريق
+وصف الأضرار: فقدت شاحنة نقل ثقيلة السيطرة أثناء الكبح وانحرفت لتصطدم مباشرة بالبنية التحتية الجانبية للطريق
+حالة الحاجز: تشوه وانفصال 15 متراً من حواجز الطريق الصلب من نوع W-Beam عن قواعدها الداعمة، مع ميل خطير للحاجز نحو الطريق الفعلي - يتطلب استبدالاً فورياً
+درجة الخطورة: حرجة
+
+رقم التقرير: AC-2026-102
+التاريخ: 2026-03-15
+الموقع: الطريق الدائري الإقليمي، قطاع طريق بنها البديل
+نوع الحادث: اصطدام مركبة خاصة بالحاجز الأوسط
+وصف الأضرار: أدى نعاس السائق للحظات إلى اصطدام سيارة ملاكي بالحاجز الأوسط الإنشائي للطريق
+حالة الحاجز: انزياح ثلاثة حواجز خرسانية من نوع نيوجيرسي عن محاذاتها بمقدار 40 سم تقريباً نحو المسار السريع المقابل، دون إصابات، لكن مع خطر تصادم وشيك - تم طلب رافعة ثقيلة لإعادة المحاذاة
+درجة الخطورة: مرتفعة
+
+رقم التقرير: AC-2026-103
+التاريخ: 2026-04-01
+الموقع: طريق بورسعيد الساحلي، القطاع الغربي
+نوع الحادث: اصطدام مركبة تجارية بمنظومة الحماية عند مخرج سريع
+وصف الأضرار: أدى الضباب الكثيف إلى اصطدام سيارة توصيل تجارية بمنظومة السلامة عند مخرج طريق سريع
+حالة الحاجز: تحطم كامل لممتص الصدمات الطرفي (Crash Cushion) ولوحين متتاليين من الحاجز المجلفن
+درجة الخطورة: حرجة - فشل كامل في البنية التحتية للسلامة
+
+رقم التقرير: AC-2026-104
+التاريخ: 2026-04-27
+الموقع: طريق الجيش الشرقي الصحراوي (صعيد مصر)، قطاع المنيا
+نوع الحادث: انزلاق مركبة نتيجة انفجار إطار واصطدامها بحواجز الطريق
+وصف الأضرار: أدى انفجار مفاجئ في إطار مركبة نصف نقل إلى فقدان السيطرة والاحتكاك العنيف بحواجز الطريق الجانبية
+حالة الحاجز: انقطاع 25 متراً من الأسيجة الأمنية السلكية الفولاذية وتدمير خطوط الشد، ما يجعلها غير قادرة على امتصاص أي صدمات مستقبلية
+درجة الخطورة: مرتفعة
+
+رقم التقرير: AC-2026-105
+التاريخ: 2026-05-11
+الموقع: طريق الأقصر-قنا الزراعي
+نوع الحادث: اصطدام جرار زراعي بحاجز الجسر
+وصف الأضرار: اصطدم جرار زراعي بحاجز الجسر الفولاذي وهياكل الحماية المحيطة
+حالة الحاجز: انفصال كامل لحاجز الانتقال الأمني عن قاعدته مع كسر في نقطة الترسيخ الإنشائية - يتطلب إصلاحاً فورياً لمنع سقوط المركبات في قنوات الري المجاورة
+درجة الخطورة: أولوية قصوى
+
+رقم التقرير: AC-2026-106
+التاريخ: 2026-05-29
+الموقع: طريق الإسماعيلية-بورسعيد
+نوع الحادث: اصطدام مركبة بأسيجة السلامة نتيجة مناورة تفادي
+وصف الأضرار: انحرفت مركبة لتفادي حطام على الطريق فاصطدمت بأسيجة السلامة الخاصة بالمشاة وحواجز الطريق الفولاذية المحيطة بالمنطقة الحضرية
+حالة الحاجز: انفصال 4 ألواح من السياج الفولاذي عن قواعدها الأرضية
+درجة الخطورة: متوسطة إلى مرتفعة
+
+رقم التقرير: AC-2026-107
+التاريخ: 2026-06-10
+الموقع: طريق محور قناة السويس، قطاع الإسماعيلية
+نوع الحادث: اصطدام مركبة بمنظومة الحماية عند نقطة تفرع الطريق
+وصف الأضرار: اصطدمت مركبة مسرعة بمنظومة الحماية عند منطقة التفرع (Split-Gore)
+حالة الحاجز: تدمير كامل لصف البراميل الرملية الماصة للصدمات مع انسكاب محتوياتها عبر مسارين نشطين، وانحناء اللوحة الخلفية الداعمة
+درجة الخطورة: مرتفعة - يتطلب تنظيفاً عاجلاً واستبدال حواجز امتصاص الطاقة
+
+رقم التقرير: AC-2026-108
+التاريخ: 2026-06-24
+الموقع: الطريق الدائري بكفر الشيخ
+نوع الحادث: اصطدام مركبة نقل بحاجز الجزيرة الوسطى
+وصف الأضرار: أدت مناورة استدارة غير منتظمة إلى اصطدام مركبة نقل متوسطة بحواجز الجزيرة الوسطى
+حالة الحاجز: انحناء منظومة الحاجز الفولاذي المعياري على شكل حرف V وبروزها داخل المسار الأيسر
+درجة الخطورة: شديدة - عائق مروري خطير
+
+رقم التقرير: AC-2026-109
+التاريخ: 2026-07-04
+الموقع: طريق سوهاج الرابط، بالقرب من كوبري المحور
+نوع الحادث: حادث مركبة منفردة أدى لتلف حواجز الكابل عالية الشد
+وصف الأضرار: أدى حادث اصطدام لمركبة منفردة إلى إلحاق ضرر بالغ بحواجز الكابل عالية الشد المصممة لمنع عبور المركبات إلى الاتجاه المقابل
+حالة الحاجز: فقدان كامل لشد الكابل عبر منطقة تمتد 40 متراً
+درجة الخطورة: مرتفعة
+
+رقم التقرير: AC-2026-110
+التاريخ: 2026-07-09
+الموقع: طريق العلمين الدولي، قطاع طريق مطروح
+نوع الحادث: انزلاق مركبة نتيجة تسرب مياه واصطدامها بحاجز الطريق الفولاذي
+وصف الأضرار: انزلقت سيارة دفع رباعي فاخرة بسبب تسرب مياه من صهريج مجاور، لتصطدم بمصفوفة حواجز الطريق الفولاذية الواقية
+حالة الحاجز: انكسار أعمدة فولاذية هيكلية متعددة عند مستوى الأرض، وانفصال كامل للوح الحاجز الواقي
+درجة الخطورة: عاجلة جداً نظراً لحركة المرور الساحلية الصيفية الكثيفة

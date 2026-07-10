@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from langchain_community.embeddings import SentenceTransformerEmbeddings
+from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings # <--- NEW IMPORT
 from langchain_community.vectorstores import Chroma
 from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq
@@ -9,17 +9,16 @@ from langchain_core.runnables import RunnablePassthrough
 
 load_dotenv()
 
-# Global cache to avoid reloading RAG on every request
 _rag_cache = {"chain": None, "retriever": None}
 
 def load_rag():
-    """Load RAG chain and retriever. Uses cache to avoid reloading."""
-    # Return cached version if available
     if _rag_cache["chain"] is not None and _rag_cache["retriever"] is not None:
         return _rag_cache["chain"], _rag_cache["retriever"]
     
-    print("[INFO] Loading embeddings and vector store...")
-    embedding_model = SentenceTransformerEmbeddings(
+    print("[INFO] Loading embeddings via HF API...")
+    # Use the free HF Inference API instead of downloading the model locally
+    embedding_model = HuggingFaceInferenceAPIEmbeddings(
+        api_key=os.getenv("HF_TOKEN"), 
         model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
     )
     
@@ -32,7 +31,7 @@ def load_rag():
     
     print("[INFO] Loading LLM...")
     llm = ChatGroq(
-            model="llama-3.1-8b-instant", # الموديل الأكبر والأقوى في اللغة العربية
+            model="llama-3.1-8b-instant",
             api_key=os.getenv("GROQ_API_KEY"),
             temperature=0,
         )
@@ -70,28 +69,15 @@ Answer in fluent Arabic:
         | StrOutputParser()
     )
     
-    # Cache for future requests
     _rag_cache["chain"] = chain
     _rag_cache["retriever"] = retriever
     
     print("[INFO] ✓ RAG chain loaded and cached!")
     return chain, retriever
+
 def ask(question: str):
     chain, retriever = load_rag()
     answer = chain.invoke(question)
     sources = [doc.metadata.get("source", "unknown") for doc in retriever.invoke(question)]
     
-    with open("answer.txt", "w", encoding="utf-8") as f:
-        f.write(f"Question: {question}\n\n")
-        f.write(f"Answer:\n{answer}\n\n")
-        f.write("Sources:\n")
-        for s in sources:
-            f.write(f"  - {s}\n")
-            
-    print("\n[✓] Done! Saved to answer.txt")
-    
     return answer
-
-if __name__ == "__main__":
-    question = input("Ask your question: ")
-    ask(question)
