@@ -1,0 +1,36 @@
+========================================================================
+ رقيب · Road-Risk Model — Columns (v2, intuitive road features)
+ Dataset: RTA Dataset.csv (12,316 records)
+ Target : Accident_severity -> Slight / Serious / Fatal
+========================================================================
+
+WHY ONLY 10 COLUMNS?
+We deliberately reduced the model to 10 intuitive road / environment / time
+features. This (a) made the model BETTER (macro-F1 0.41 -> 0.53), and
+(b) makes the input form simple and sensible for the frontend.
+
+THE 10 INPUT FEATURES
+---------------------
+1.  Road_surface_type          Asphalt / Asphalt w/ distress / Gravel / Earth
+2.  Road_surface_conditions    Dry / Wet or damp / Snow / Flood over 3cm. deep
+3.  Light_conditions           Daylight / Darkness (lights lit / unlit / none)
+4.  Weather_conditions         Normal / Cloudy / Windy / Raining / Fog or mist / Snow
+5.  Road_allignment            straight (tangent) / curves / steep grades
+6.  Lanes_or_Medians           one-way / divided / undivided
+7.  Types_of_Junction          No junction / Y / T / X / O / Crossing
+8.  Number_of_vehicles_involved (numeric)
+9.  Hour                        0-23 (time of day)
+10. Day_of_week                Monday ... Sunday
+
+TARGET
+------
+Accident_severity : Slight (84.6%) / Serious (14.1%) / Fatal (1.3%)
+
+TWO RISK OUTPUTS (API returns both)
+-----------------------------------
+* road_risk  : transparent rule-based index (0-1) over the conditions above.
+               ALWAYS intuitive (wet+dark+steep+flood => High). Drives the UI.
+* ml_model   : HistGradientBoosting trained on the data (severity + probabilities).
+               Data-driven; note the RTA labels are not always physically intuitive.
+
+Full accepted category values: feature_schema.json

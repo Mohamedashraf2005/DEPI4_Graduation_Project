@@ -1,0 +1,80 @@
+{
+  "target": "Accident_severity",
+  "classes": [
+    "Fatal injury",
+    "Serious Injury",
+    "Slight Injury"
+  ],
+  "numeric": [
+    "Number_of_vehicles_involved",
+    "Hour"
+  ],
+  "categorical": {
+    "Road_surface_type": [
+      "Asphalt roads",
+      "Asphalt roads with some distress",
+      "Earth roads",
+      "Gravel roads",
+      "Other"
+    ],
+    "Road_surface_conditions": [
+      "Dry",
+      "Flood over 3cm. deep",
+      "Snow",
+      "Wet or damp"
+    ],
+    "Light_conditions": [
+      "Darkness - lights lit",
+      "Darkness - lights unlit",
+      "Darkness - no lighting",
+      "Daylight"
+    ],
+    "Weather_conditions": [
+      "Cloudy",
+      "Fog or mist",
+      "Normal",
+      "Other",
+      "Raining",
+      "Raining and Windy",
+      "Snow",
+      "Windy"
+    ],
+    "Road_allignment": [
+      "Escarpments",
+      "Gentle horizontal curve",
+      "Sharp reverse curve",
+      "Steep grade downward with mountainous terrain",
+      "Steep grade upward with mountainous terrain",
+      "Tangent road with flat terrain",
+      "Tangent road with mild grade and flat terrain",
+      "Tangent road with mountainous terrain and",
+      "Tangent road with rolling terrain"
+    ],
+    "Lanes_or_Medians": [
+      "Double carriageway (median)",
+      "One way",
+      "Two-way (divided with broken lines road marking)",
+      "Two-way (divided with solid lines road marking)",
+      "Undivided Two way",
+      "other"
+    ],
+    "Types_of_Junction": [
+      "Crossing",
+      "No junction",
+      "O Shape",
+      "Other",
+      "T Shape",
+      "X Shape",
+      "Y Shape"
+    ],
+    "Day_of_week": [
+      "Friday",
+      "Monday",
+      "Saturday",
+      "Sunday",
+      "Thursday",
+      "Tuesday",
+      "Wednesday"
+    ]
+  }
+}
