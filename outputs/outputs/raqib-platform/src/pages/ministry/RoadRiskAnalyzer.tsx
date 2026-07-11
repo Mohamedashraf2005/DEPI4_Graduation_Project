@@ -152,7 +152,7 @@ export function RoadRiskAnalyzer() {
     setResult(null);
 
     try {
-      const apiUrl = import.meta.env.VITE_MODEL_RISK_URL || "http://localhost:8000/predict";
+      const apiUrl = import.meta.env.VITE_MODEL_RISK_URL || "https://ad67237a-63d7-4175-8065-78baa0dbb362-00-kqy6x7ewy5yy.kirk.replit.dev:8080/predict";
       
       const response = await fetch(apiUrl, {
         method: "POST",
@@ -400,7 +400,6 @@ export function RoadRiskAnalyzer() {
   );
 }
 
-// المكون المنسدل الذكي الداخلي لدعم عرض القيم بالعربية ومحاذاتها لليمين
 function FormSelect({
   label,
   icon,
