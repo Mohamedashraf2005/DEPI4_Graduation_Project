@@ -48,7 +48,7 @@ export default function App() {
               <Route index element={<Analyze />} />
               <Route path="reports" element={<Reports />} />
               <Route path="reports/:ref" element={<CaseReview />} />
-              <Route path="risk" element={<Risk />} />
+              {/* <Route path="risk" element={<Risk />} /> */}
               <Route path="heatmap" element={<Heatmap />} />
               <Route path="chatbot" element={<Chatbot />} />
               <Route path="roadriskanalyzer" element={<RoadRiskAnalyzer />} />
