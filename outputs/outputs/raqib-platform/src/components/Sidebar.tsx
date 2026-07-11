@@ -10,6 +10,7 @@ const items: { to: string; icon: LucideIcon; key: string; end?: boolean }[] = [
   { to: "/app/risk", icon: TrendingUp, key: "nav.risk" },
   { to: "/app/heatmap", icon: TrendingUp, key: "nav.heatmap" },
   { to: "/app/chatbot", icon: TrendingUp, key: "nav.chatbot" },
+  { to: "/app/roadriskanalyzer", icon: TrendingUp, key: "nav.roadriskanalyzer" },
 ];
 //raqib-platform\src\pages\ministry\chatbot.ts
 export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
