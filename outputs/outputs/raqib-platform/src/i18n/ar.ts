@@ -24,6 +24,10 @@ export const ar: Record<string, string> = {
   "nav.risk": "خطورة الطريق",
   "nav.citizen": "بوابة المواطن",
   "nav.ministry": "بوابة الجهة",
+  "nav.heatmap": "خريطة الأضرار",
+  "nav.chatbot": "تحدث مع رقيب",
+  "nav.roadriskanalyzer": "محلل مخاطر الطريق",
+
 
   "landing.badge": "منصة وطنية لسلامة الطرق",
   "landing.title1": "كل خطرٍ نكتشفه مبكرًا هو حادثٌ لم يقع،",

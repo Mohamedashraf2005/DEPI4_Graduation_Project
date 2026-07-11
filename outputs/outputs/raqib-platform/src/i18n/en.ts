@@ -24,6 +24,10 @@ export const en: Record<string, string> = {
   "nav.risk": "Road risk",
   "nav.citizen": "Citizen portal",
   "nav.ministry": "Authority portal",
+  "nav.heatmap": "Heatmap",
+  "nav.chatbot": "Chatbot",
+  "nav.roadriskanalyzer": "Road Risk Analyzer",
+
 
   "landing.badge": "National road-safety platform",
   "landing.title1": "Every hazard we catch early is a crash that never happened,",

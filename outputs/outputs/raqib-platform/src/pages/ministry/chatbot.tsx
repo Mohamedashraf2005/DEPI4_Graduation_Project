@@ -120,6 +120,7 @@ export function Chatbot() {
     setError(null);
 
     try {
+      // const apiUrl = import.meta.env.VITE_RAG_API_URL || "http://localhost:8000";
       const apiUrl = import.meta.env.VITE_RAG_API_URL || "http://localhost:8000";
       const res = await fetch(`${apiUrl}/ask`, {
         method: "POST",
